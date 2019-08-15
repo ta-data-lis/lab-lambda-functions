@@ -1,0 +1,45 @@
+In this part, we will define a function that returns a lambda expression
+In the cell below, write a lambda expression that takes two numbers and returns 1 if one is divisible by the other and zero otherwise. Call the lambda expression mod.
+
+#
+# Your code here:
+mod = lambda i,j : 1 if i % j == 0 else 0
+​
+#print(mod(4,2))
+#print(mod(1,3))
+​
+1
+Now create a function that returns mod. The function only takes one argument - the first number in the mod lambda function.
+Note: the lambda function above took two arguments, the lambda function in the return statement only takes one argument but also uses the argument passed to the function.
+
+def divisor(a):
+    """
+    input: a number
+    output: a function that returns 1 if the number is divisible by another number (to be passed later) and zero otherwise
+    """
+    # Your code here:
+    #inp = input("Inp 
+    #out = mod(inp,a)
+                
+    mod1 = lambda i : 1 if i % a == 0 else 0
+    return mod1
+​
+print(divisor(2))
+<function divisor.<locals>.<lambda> at 0x0000023D9906B048>  ---------> aqui não funciona porque lhe estou a dar um parâmetro para o divisor, mas ele retorna uma função que ainda necessita de mais uma parâmetro
+
+Finally, pass the number 5 to divisor. Now the function will check whether a number is divisble by 5. Assign this function to divisible5
+
+# Your code here:
+divisible5 = divisor(5)           ---------> aqui não funciona porque lhe estou a dar um parâmetro para o divisor, mas o resultado da função divisor é uma função que ainda requer mais um parâmetro
+
+​
+print(divisible5)
+​
+<function divisor.<locals>.<lambda> at 0x0000023D991F06A8>
+Test your function with the following test cases:
+
+divisible5(10)  ---------> aqui já funciona porque ao introduzir o 10 estou a dar-lhe um numerador, ou seja, estou a dar o parâmetro que faltava ao mod para ele funcionar porque na realidade a função divisor retorna
+1
+divisible5(8)   ---------> aqui já funciona porque ao introduzir o 10 estou a dar-lhe um numerador, ou seja, estou a dar o parâmetro que faltava ao mod para ele funcionar porque na realidade a função divisor retorna
+
+0
