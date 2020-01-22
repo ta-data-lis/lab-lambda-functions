@@ -18,9 +18,9 @@ Open the `main.ipynb` file in the `your-code` directory. Follow the instructions
 
 Upon completion, add your deliverables to git. Then commit git and push your branch to the remote.
 
+.
 ## Resources
 
 [Lambda Expressions](https://docs.python.org/3/tutorial/controlflow.html#lambda-expressions)
 
 [The Python zip function](https://docs.python.org/3.3/library/functions.html#zip)
-
