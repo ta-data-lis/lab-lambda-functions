@@ -4,7 +4,7 @@
 
 ## Introduction
 
-As a python developer, you need the right tool for the right job. In this lab, you will explore a number of scenarios where lambda functions are the best tool for the job.
+ As a python developer, you need the right tool for the right job. In this lab, you will explore a number of scenarios where lambda functions are the best tool for the job.
 
 ## Getting Started
 
